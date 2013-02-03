@@ -19,6 +19,7 @@ ADFs are the Workbench 3.1 ADFs.
 If you need to remake the all.md5:
 
 cd Install:
+stack 40960
 md5sum2 #? all > ram:all.md5
 
 Now edit the all.md5 and delete any .info files, and the 
