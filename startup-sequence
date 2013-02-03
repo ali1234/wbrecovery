@@ -1,0 +1,19 @@
+stack 40960
+
+md5sum2 verbose check all.md5
+
+mount rd0: from sys:mountlist
+mount rd1: from sys:mountlist
+mount rd2: from sys:mountlist
+mount rd3: from sys:mountlist
+mount rd4: from sys:mountlist
+mount rd5: from sys:mountlist
+
+transadf rd0: sys:Disks/Install.adf write
+transadf rd1: sys:Disks/Workbench.adf write
+transadf rd2: sys:Disks/Extras.adf write
+transadf rd3: sys:Disks/Locale.adf write
+transadf rd4: sys:Disks/Fonts.adf write
+transadf rd5: sys:Disks/Storage.adf write
+
+echo Now reboot!

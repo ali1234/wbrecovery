@@ -1,0 +1,95 @@
+RD0:
+	Device		= ramdrive.device
+	Unit		= 0
+	Flags		= 0
+	Surfaces	= 2
+	SectorsPerTrack	= 11
+	SectorSize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	reserved	= 2
+	interleave	= 0
+	buffers		= 5
+	bufmemtype	= 5
+	Activate	= 1
+#
+RD1:
+	device		= ramdrive.device
+	unit		= 1
+	flags		= 0
+	surfaces	= 2
+	sectorspertrack	= 11
+	sectorsize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	Reserved	= 2
+	Interleave	= 0
+	Buffers		= 5
+	BufMemType	= 5
+	Activate	= 1
+	BootPri		= -129
+#
+RD2:
+	Device		= ramdrive.device
+	Unit		= 2
+	Flags		= 0
+	Surfaces	= 2
+	SectorsPerTrack	= 11
+	SectorSize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	Reserved	= 2
+	Interleave	= 0
+	Buffers		= 5
+	BufMemType	= 5
+	Activate	= 1
+	BootPri		= -129
+#
+RD3:
+	Device		= ramdrive.device
+	Unit		= 3
+	Flags		= 0
+	Surfaces	= 2
+	SectorsPerTrack	= 11
+	SectorSize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	Reserved	= 2
+	Interleave	= 0
+	Buffers		= 5
+	BufMemType	= 5
+	Activate	= 1
+	BootPri		= -129
+#
+RD4:
+	Device		= ramdrive.device
+	Unit		= 4
+	Flags		= 0
+	Surfaces	= 2
+	SectorsPerTrack	= 11
+	SectorSize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	Reserved	= 2
+	Interleave	= 0
+	Buffers		= 5
+	BufMemType	= 5
+	Activate	= 1
+	BootPri		= -129
+#
+RD5:
+	Device		= ramdrive.device
+	Unit		= 5
+	Flags		= 0
+	Surfaces	= 2
+	SectorsPerTrack	= 11
+	SectorSize	= 512
+	LowCyl		= 0
+	HighCyl		= 79
+	Reserved	= 2
+	Interleave	= 0
+	Buffers		= 5
+	BufMemType	= 5
+	Activate	= 1
+	BootPri		= -129
+#

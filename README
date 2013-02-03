@@ -1,0 +1,25 @@
+Workbench Recovery Partition
+----------------------------
+
+This is a startup-sequence and mountlist for Workbench Installer.
+Put it on DH3, set boot priority -1. Select to boot partition from
+Amiga boot menu (hold both mouse buttons on reboot.) It copies the
+Workbench ADFs to RAD: disks. Then you can reboot and it will boot
+the install disk from RAM. You can then install as normal. When the
+installer completes it will unmount the RAD: devices automatically.
+
+all.md5: md5 checksums of every file you need on Install:
+
+C:mount is from regular WB3.1
+C:md5sum2 is from http://aminet.net/util/misc/md5sum2.lha
+C:TransADF is from http://aminet.net/disk/misc/TransADF.lha
+
+ADFs are the Workbench 3.1 ADFs.
+
+Once you have assembled all files, make the all.md5:
+
+cd Install:
+md5sum2 #? all > ram:all.md5
+
+Now edit the all.md5 and delete any .info files, and the 
+entry for any previous all.md5.
