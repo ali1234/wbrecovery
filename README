@@ -16,10 +16,13 @@ C:TransADF is from http://aminet.net/disk/misc/TransADF.lha
 
 ADFs are the Workbench 3.1 ADFs.
 
-Once you have assembled all files, make the all.md5:
+If you need to remake the all.md5:
 
 cd Install:
 md5sum2 #? all > ram:all.md5
 
 Now edit the all.md5 and delete any .info files, and the 
 entry for any previous all.md5.
+
+If you don't care about verification you can delete the md5sum2 
+line from startup-sequence.
